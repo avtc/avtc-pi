@@ -37,6 +37,9 @@
       "node_modules/avtc-pi-zai-continue/index.ts",
       "node_modules/avtc-pi-ask-user-question/index.ts",
       "node_modules/avtc-pi-notification/index.ts"
+    ],
+    "skills": [
+      "node_modules/avtc-pi-feature-flow/skills"
     ]
   },
   "dependencies": {

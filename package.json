@@ -57,5 +57,8 @@
     "avtc-pi-ask-user-question": "^1.0.0",
     "avtc-pi-notification": "^1.0.0",
     "avtc-pi-logger": "^1.0.0"
+  },
+  "scripts": {
+    "prepublishOnly": "node scripts/check-symlinks.mjs"
   }
 }

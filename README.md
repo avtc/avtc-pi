@@ -26,7 +26,7 @@ This is a **bundle package with no logic of its own**. Installing it brings the 
 ## Installation
 
 ```bash
-pi install git:github.com/avtc/avtc-pi
+pi install npm:avtc-pi
 ```
 
 This installs the whole suite. Each extension can also be installed individually (`pi install npm:avtc-pi-feature-flow`, etc.) if you only want part of it.

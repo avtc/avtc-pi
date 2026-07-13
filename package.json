@@ -1,6 +1,6 @@
 {
   "name": "avtc-pi",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "An extension suite — deterministic feature development, subagent delegation, working-memory, behavioral learning, parallel-work guardrails, durable decisions, notifications, and more.",
   "type": "module",
   "main": "./index.ts",
@@ -25,21 +25,21 @@
   "homepage": "https://github.com/avtc/avtc-pi",
   "pi": {
     "extensions": [
-      "node_modules/avtc-pi-feature-flow/index.ts",
-      "node_modules/avtc-pi-subagent/index.ts",
-      "node_modules/avtc-pi-todo/index.ts",
-      "node_modules/avtc-pi-portrait/index.ts",
-      "node_modules/avtc-pi-parallel-work-guardrail/index.ts",
-      "node_modules/avtc-pi-user-decisions/index.ts",
-      "node_modules/avtc-pi-ui-components/index.ts",
-      "node_modules/avtc-pi-subagent-ui-bridge/index.ts",
-      "node_modules/avtc-pi-unstuck/index.ts",
-      "node_modules/avtc-pi-zai-continue/index.ts",
-      "node_modules/avtc-pi-ask-user-question/index.ts",
-      "node_modules/avtc-pi-notification/index.ts"
+      "../avtc-pi-feature-flow/index.ts",
+      "../avtc-pi-subagent/index.ts",
+      "../avtc-pi-todo/index.ts",
+      "../avtc-pi-portrait/index.ts",
+      "../avtc-pi-parallel-work-guardrail/index.ts",
+      "../avtc-pi-user-decisions/index.ts",
+      "../avtc-pi-ui-components/index.ts",
+      "../avtc-pi-subagent-ui-bridge/index.ts",
+      "../avtc-pi-unstuck/index.ts",
+      "../avtc-pi-zai-continue/index.ts",
+      "../avtc-pi-ask-user-question/index.ts",
+      "../avtc-pi-notification/index.ts"
     ],
     "skills": [
-      "node_modules/avtc-pi-feature-flow/skills"
+      "../avtc-pi-feature-flow/skills"
     ]
   },
   "dependencies": {
@@ -57,8 +57,5 @@
     "avtc-pi-ask-user-question": "^1.0.0",
     "avtc-pi-notification": "^1.0.0",
     "avtc-pi-logger": "^1.0.0"
-  },
-  "scripts": {
-    "prepublishOnly": "node scripts/check-symlinks.mjs"
   }
 }

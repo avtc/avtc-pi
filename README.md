@@ -8,7 +8,7 @@ This is a **bundle package with no logic of its own**. Installing it brings the 
 
 | Extension | What it does |
 |---|---|
-| [avtc-pi-feature-flow](https://github.com/avtc/avtc-pi-feature-flow) | Predictable, deterministic feature development — deep upfront design, configurable review and verification rigor, and auto-agents draining a backlog |
+| [avtc-pi-featyard](https://github.com/avtc/avtc-pi-featyard) | Predictable, deterministic feature development — deep upfront design, configurable review and verification rigor, and auto-agents draining a backlog |
 | [avtc-pi-subagent](https://github.com/avtc/avtc-pi-subagent) | A subagent tool supporting context compaction and nested subagents — user-customizable models (with round-robin) and tool policies |
 | [avtc-pi-todo](https://github.com/avtc/avtc-pi-todo) | A working-memory plan the agent manages — breaks multi-stage work into items when needed |
 | [avtc-pi-portrait](https://github.com/avtc/avtc-pi-portrait) | Builds a behavioral portrait from your session history — learns your corrections and injects them into the system prompt |
@@ -29,11 +29,11 @@ This is a **bundle package with no logic of its own**. Installing it brings the 
 pi install npm:avtc-pi
 ```
 
-This installs the whole suite. Each extension can also be installed individually (`pi install npm:avtc-pi-feature-flow`, etc.) if you only want part of it.
+This installs the whole suite. Each extension can also be installed individually (`pi install npm:avtc-pi-featyard`, etc.) if you only want part of it.
 
 ## Configuration
 
-Each extension has its own settings, edited via its own `/<name>:settings` command (e.g. `/ff:settings`, `/todo:settings`). See each extension's repo for its configuration reference.
+Each extension has its own settings, edited via its own `/<name>:settings` command (e.g. `/fy:settings`, `/todo:settings`). See each extension's repo for its configuration reference.
 
 > Developed with [Z.ai](https://z.ai/subscribe?ic=N5IV4LLOOV) — get 10% off your subscription via this referral link.
 

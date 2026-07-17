@@ -1,6 +1,6 @@
 {
   "name": "avtc-pi",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "An extension suite — deterministic feature development, subagent delegation, working-memory, behavioral learning, parallel-work guardrails, durable decisions, notifications, and more.",
   "type": "module",
   "main": "./index.ts",
@@ -43,19 +43,19 @@
     ]
   },
   "dependencies": {
-    "avtc-pi-featyard": "^1.1.0",
-    "avtc-pi-subagent": "^1.0.0",
-    "avtc-pi-todo": "^1.0.0",
-    "avtc-pi-portrait": "^1.0.0",
-    "avtc-pi-parallel-work-guardrail": "^1.0.0",
-    "avtc-pi-user-decisions": "^1.0.0",
-    "avtc-pi-settings-ui": "^1.0.0",
-    "avtc-pi-ui-components": "^1.0.0",
-    "avtc-pi-subagent-ui-bridge": "^1.0.0",
-    "avtc-pi-unstuck": "^1.0.0",
-    "avtc-pi-zai-continue": "^1.0.0",
-    "avtc-pi-ask-user-question": "^1.0.0",
-    "avtc-pi-notification": "^1.0.0",
-    "avtc-pi-logger": "^1.0.0"
+    "avtc-pi-featyard": "^1.1.2",
+    "avtc-pi-subagent": "^1.0.5",
+    "avtc-pi-todo": "^1.0.6",
+    "avtc-pi-portrait": "^1.0.5",
+    "avtc-pi-parallel-work-guardrail": "^1.0.6",
+    "avtc-pi-user-decisions": "^1.0.5",
+    "avtc-pi-settings-ui": "^1.0.6",
+    "avtc-pi-ui-components": "^1.0.3",
+    "avtc-pi-subagent-ui-bridge": "^1.0.4",
+    "avtc-pi-unstuck": "^1.0.4",
+    "avtc-pi-zai-continue": "^1.0.4",
+    "avtc-pi-ask-user-question": "^1.0.5",
+    "avtc-pi-notification": "^1.0.5",
+    "avtc-pi-logger": "^1.0.3"
   }
 }

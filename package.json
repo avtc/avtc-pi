@@ -1,6 +1,6 @@
 {
   "name": "avtc-pi",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "An extension suite — deterministic feature development, subagent delegation, working-memory, behavioral learning, parallel-work guardrails, durable decisions, notifications, and more.",
   "type": "module",
   "main": "./index.ts",
@@ -43,7 +43,7 @@
     ]
   },
   "dependencies": {
-    "avtc-pi-featyard": "^1.1.5",
+    "avtc-pi-featyard": "^1.1.6",
     "avtc-pi-subagent": "^1.0.6",
     "avtc-pi-todo": "^1.0.7",
     "avtc-pi-portrait": "^1.0.7",
@@ -55,7 +55,7 @@
     "avtc-pi-unstuck": "^1.0.5",
     "avtc-pi-zai-continue": "^1.0.5",
     "avtc-pi-ask-user-question": "^1.0.6",
-    "avtc-pi-notification": "^1.0.6",
+    "avtc-pi-notification": "^1.0.7",
     "avtc-pi-logger": "^1.0.3"
   }
 }

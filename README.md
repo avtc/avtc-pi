@@ -11,6 +11,7 @@ This is a **bundle package with no logic of its own**. Installing it brings the 
 | [avtc-pi-featyard](https://github.com/avtc/avtc-pi-featyard) | Predictable, deterministic feature development — deep upfront design, configurable review and verification rigor, and auto-agents draining a backlog |
 | [avtc-pi-subagent](https://github.com/avtc/avtc-pi-subagent) | A subagent tool supporting context compaction and nested subagents — user-customizable models (with round-robin) and tool policies |
 | [avtc-pi-todo](https://github.com/avtc/avtc-pi-todo) | A working-memory plan the agent manages — breaks multi-stage work into items when needed |
+| [avtc-pi-session-owl](https://github.com/avtc/avtc-pi-session-owl) | Working memory across compactions — maintains a knowledge graph of observations in the background, renders a task-relative summary into each compaction, and exposes `/owl:*` commands + `owl_recall` for browsing |
 | [avtc-pi-portrait](https://github.com/avtc/avtc-pi-portrait) | Builds a behavioral portrait from your session history — learns your corrections and injects them into the system prompt |
 | [avtc-pi-parallel-work-guardrail](https://github.com/avtc/avtc-pi-parallel-work-guardrail) | Lets you block or approve agent-called git operations that disrupt parallel work |
 | [avtc-pi-user-decisions](https://github.com/avtc/avtc-pi-user-decisions) | Captures user decisions and re-injects them into the system prompt after compaction and into subagents |

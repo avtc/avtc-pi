@@ -32,6 +32,12 @@ pi install npm:avtc-pi
 
 This installs the whole suite. Each extension can also be installed individually (`pi install npm:avtc-pi-featyard`, etc.) if you only want part of it.
 
+## Install separately
+
+| Extension | What it does |
+|---|---|
+| [avtc-pi-bench-compact](https://github.com/avtc/avtc-pi-bench-compact) | Benchmarks compaction-memory extensions for pi head-to-head — judges what a post-compaction agent retains and recalls, whether it redoes work, and what that memory costs in tokens |
+
 ## Configuration
 
 Each extension has its own settings, edited via its own `/<name>:settings` command (e.g. `/fy:settings`, `/todo:settings`). See each extension's repo for its configuration reference.

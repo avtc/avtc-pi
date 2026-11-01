@@ -37,6 +37,7 @@ This installs the whole suite. Each extension can also be installed individually
 | Extension | What it does |
 |---|---|
 | [avtc-pi-bench-compact](https://github.com/avtc/avtc-pi-bench-compact) | Benchmarks compaction-memory extensions for pi head-to-head — judges what a post-compaction agent retains and recalls, whether it redoes work, and what that memory costs in tokens |
+| [avtc-pi-prune-images](https://github.com/avtc/avtc-pi-prune-images) | Payload-level rolling image eviction — sends only the N most recent images per LLM call so providers with per-prompt image caps never reject the request; session history stays intact (`pi install npm:avtc-pi-prune-images`) |
 
 ## Configuration
 
